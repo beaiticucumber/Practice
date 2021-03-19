@@ -1,0 +1,26 @@
+/*
+    serif:Times New Roman
+    sans-serif:Arial
+    monospace:Courier
+    Cursive: COmic Sans Ms
+    fantasy: Impact
+*/
+
+#serif {
+    font-family: "Times New Roman", Serif;
+}
+#sans-serif {
+    font-family: arial, sans-serif;
+}
+#monospace {
+    font-family: courier, monospace;
+}
+#cursive {
+    font-family: "Comic Sans MS", cursive;
+}
+#fantasy {
+    font-family: impact, fantasy;
+}
+#google {
+    font-family: "Jeju Gothic", sans-serif;
+}

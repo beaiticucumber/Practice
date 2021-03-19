@@ -1,0 +1,56 @@
+<!DOCTYPE html><!--이걸 선언해줘야 최신의 HTML을 실행?함-->
+
+<html> <!--html, head, body 태그는 옵셔널 태그이다. 정리의 목적으로 태그를 사용함. 굳이 사용 안해도.. ㄱㅊ-->
+
+<head> <!--haed를 선언해줘야 코드를 저장했을때 live server가 반응하면서 자동으로 홈페이지가 업뎃됨-->
+    <title>My first Website</title>
+    <meta charset="utf-8"> <!--한글폰트를 인식해줌-->
+    <link href="css/style.css" rel="stylesheet"> <!--href로 폴더경로를 불러옴, rel은 관계를 뜻하고 css파일이 홈페이지의 stylesheet임. -->
+    <!--link태그를 이용한 css처리가 제일 효율적이고 가장 깔끔함-->
+
+    <!-- 여기서 부터 css -->
+    <!-- <style> /* 여기서부터는 주석처리를 /* 로함 */
+        body{
+            text-align: center;
+        }
+        
+        h1{
+            color: aqua; /*컬러 설정*/
+        }
+        
+        h2{
+            margin-top: 100px; /* 위와의 간격(여백) 100*/
+        }
+
+        img{/* 이미지 가운데 정렬 */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        p i{ /* p부분의 i만 변경해주기 위해 p i로 선언*/
+            font-size: 10px;/* 폰트사이즈 10 */
+        }s
+        </style> -->
+</head>
+
+<body>
+<!--h1은 heading의 개념으로 내용의 제목?을 같은걸 의미함 숫자(1,2,3...)로 구분하고 숫자가 커질수록 폰트가 작아지면서 구별됨-->
+<h1>I <i>love</i> HTML!</h1> <!--i는 이탤릭체를 뜻하고 글자를 기울여지게 해줌-->
+<h2 style="color: red; font-size: 72px;">Hello world!</h2> <!--이렇게 s따로 style태그를 쓸 수 있기도 함-->
+
+<!--이미지 넣기-->
+<img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEyMTdfMjY0%2FMDAxNjA4MTgwNTk5NzUx.tKtTf6VVlcDDH3HF6oskliD3P4miqP48ZsPkRV6iIzMg.Peby2Oen9JfnN0bxHV_4BqYWHAImOwDyGI06VhAHb6Eg.JPEG.g8vfdkn%2FIMG_1348.JPG&type=sc960_832" width="400" height="550">
+<img src="images/irene.JPG" width="400" height="500"> <!--%로도 크기 조절 가능 ex)width="50%"-->
+<p><em>아이린</em> <i>사랑해</i></p> <!--em도 강조를 뜻하는데 b와 효과가 같지만 쓰임새가 다르다고 앎-->
+
+<!--하이퍼 링크 설정-->
+<a href="https://google.com"
+target="_blank">구글로 가는 링크</a> <!--target="_blank"는 탭을 열어서 이동시켜줌-->
+
+<a href="forder1/page1.html">page 1</a>
+<a href="forder1/forder2/page2.html">page 2</a>
+
+</body>
+
+</html>

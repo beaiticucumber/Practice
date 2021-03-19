@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box Model3</title>
+        <meta charset="utf-8">
+        <style>
+            h1{
+                border: 5px solid red;
+            }
+            .p1{
+                border: 5px solid red;
+                min-width: 500px; /*적어도 박스의 폭이 500px 이어야함. 
+                                    창의 크기가 가로방향으로 움직임에 따라 변화*/
+                min-height: 200px; /*적어도 박스의 높이가 200px 이어야함.*/
+            }
+            .p2{
+                border: 5px solid red;
+                max-width: 500px; /*최대 박스의 폭이 500px 임. 
+                                    창의 크기가 가로방향으로 움직임에 따라 변함*/
+                max-height: 500px; /*최대 박스의 높이가 200px 임. 
+                                    글 내용이 많아지면 박스 밖으로 내용이 나가버림.*/
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>슬기야 사랑해</h1>
+
+        <p class="p1">블라블라블ㅇㄴㅁㅇ</p>
+
+        <p class="p2">라블라블라블라블sdfdsfd
+            sfdsafadsfasfsdfffdfsaffsdfdasfjdasklfjd          alkfjadsklfjkdsfjsdlfksdjfdsjflkafjsklfjk
+            lsdjlkjfklssafasdfasdfdsafdsfsafasfsfdsfdsfsfdsfdsfdsfdsf
+            sddsfdsfdsfdsfdsfsdfdjfkdsjafkalsdjflkdsjflksdjfkljds
+            fdjslkfjsdlkfjdsklafjsdlkfjlskdafjdlskfjsdlkfjsdlfkjsdfkldsjlfkfjdsklfjsd
+            klfjsdklfjsdklfjsdklafjdlskaf</p>
+    </body>
+</html>
+

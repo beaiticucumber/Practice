@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>styling text</title>
+        <meta charset="utf-8">
+        <style>
+            body{
+                font-size: 16px;
+            }
+            .div1{
+                font-size: 100%; /* 1em과 같은개념*/
+            }
+            /*.div1{
+                font-size: 24px;
+            }
+            .div2{
+                font-size: 24pt; pt는 px의 1.33배, 웹에서는 잘 안쓰임
+            }*/
+            .div2{
+                font-size: 200%;
+            }
+            
+            .div3{
+                font-size: 200%;
+            }
+        </style>
+    </head>
+
+<body>
+    <div class="div1">div1 <!--div1의 부모는 body 그래서 body px의 100퍼를 가짐-->
+        <div class="div2">div2 <!--div2의 부모는 div1 그래서 div1의 200퍼를 가짐-->
+            <div class="div3">div3<!--div3의 부모는 div2 그래서 div2의 200퍼를 가짐-->
+    </div>
+    </div>
+    </div>
+</body>
+</html>

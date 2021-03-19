@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+
+h1{
+    color: aqua; /*컬러 설정*/
+}
+
+h2{
+    margin-top: 100px; /* 위와의 간격(여백) 100*/
+}
+
+img{/* 이미지 가운데 정렬 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p i{ /* p부분의 i만 변경해주기 위해 p i로 선언*/
+    font-size: 10px;/* 폰트사이즈 10 */
+}

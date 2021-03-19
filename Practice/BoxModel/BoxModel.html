@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box Model</title>
+        <meta charset="utf-8">
+        <style>
+            h1{
+                
+                border: 5px solid red;
+                width: 500px; /*박스 자체공간의 여백을 조절*/
+                height: 100px;
+            }
+            .p1{
+                border: 5px solid red;
+                margin-top: 100px;/* margin=요소(h1)과 요소(p1) 간의 간격*/
+                margin-bottom: 100px;
+                margin-left: 50px;
+            }
+            .p2{
+                border: 5px solid red;
+                padding-top:50px;/* padding=박스공간 안에있는 내용과 박스 사이의 여백*/
+                padding-bottom:50px;
+                padding-left:50px;
+                padding-right:50px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Exemple</h1> <p> ->테두리(border)를 그려주고, 내용 자체의 크기(공간)를 조절함. width: 500px;
+            height: 100px; </p>
+            <p>즉 박스크기(공간)을 조절하는 것으로 볼 수 있다.</p>
+            <p>*모든 박스의 border width(테두리 두께)는 5px이며, solid형태이다.</p>
+
+        <p class="p1">Exemple</p> <p> ->박스 기준으로 위 아래 왼쪽의 여백(공간을) 만들어줌. margin-top: 100px;/* margin=요소(h1)과 요소(p1) 간의 간격*/
+            margin-bottom: 100px;
+            margin-left: 50px;</p>
+
+        <p class="p2">Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple Exemple </p>
+            <p>->박스공간 안에있는 내용과 박스 사이의 여백(공간)을 만들어 줌 padding-top:50px;
+                padding-bottom:50px;
+                padding-left:50px;
+                padding-right:50px;</p>
+    </body>
+</html>
+
