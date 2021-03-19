@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Background Image</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+<body>
+    <div class="div1"></div>
+
+    <p>/* 반복하지 않음 */</p>
+    <p>background-repeat: no-repeat;</p>
+        
+    <p>/* 가로 방향으로만 반복 */</p>
+    <p>background-repeat: repeat-x;</p>
+        
+        <p>/* 세로 방향으로만 반복 */</p>
+        <p>background-repeat: repeat-y;</p>
+        
+        <p>/* 가로와 세로 모두 반복 */</p>
+        <p>background-repeat: repeat;</p>
+        
+        <p>/* 반복할 수 있는 만큼 반복한 뒤, 남는 공간은 이미지 간의 여백으로 배분 */</p>
+        <p>background-repeat: space;</p>
+        
+        <p>/* 반복할 수 있는 만큼 반복한 뒤, 남는 공간은 이미지 확대를 통해 배분 */</p>
+        <p>background-repeat: round;</p>
+        <p>
+            -------------------------------
+        </p>
+    <p>/* 원래 이미지 사이즈대로 출력 */</p>
+      <p>background-size: auto;</p>
+        
+        <p>/* 화면을 꽉 채우면서, 사진 비율을 유지 */</p>
+        <p>>background-size: cover;</p>
+        <p>/* 가로, 세로 중 먼저 채워지는 쪽에 맞추어서 출력 */</p>
+       <p> background-size: contain;</p>
+        
+        <p>/* 픽셀값 지정 (가로: 30px, 세로: 50px로 설정) */</p>
+        <p>background-size: 30px 50px;</p>
+        
+        <p>/* 퍼센트값 지정 (가로: 부모 요소 width의 60%, 세로: 부모 요소 height의 70%로 설정) */</p>
+        <p>background-size: 60% 70%;</p>
+
+    <P>---------------------------</P>
+    <p>/* 단어로 지정해주기 (가로: left, center, right, 세로: top, center, bottom) */</p>
+    /* 아래와 같은 총 9개의 조합이 가능 */</p>
+    background-position: left top;</p>
+    background-position: left center;</p>
+    background-position: left bottom;</p>
+    background-position: right top;</p>
+    background-position: right center;</p>
+    background-position: right bottom;</p>
+    background-position: center top;</p>
+    background-position: center center;</p>
+    background-position: center bottom;</p>
+    
+    /* 퍼센트로 지정해주기 (가로: 전체 width의 25% 지점, 세로: 전체 height의 75% 지점 ) */</p>
+    background-position: 25% 75%;</p>
+    
+    /* 픽셀로 지정하기 (가로: 가장 왼쪽 가장자리에서부터 오른쪽으로 100px 이동한 지점, 세로: 가장 상단 가장자리에서 아래로 200px 이동한 지점) */</p>
+    background-position: 100px 200px;</p>
+
+</body>
+</html>
